@@ -1,8 +1,5 @@
 FROM ubuntu:latest
 
-# Install necessary packages
-RUN apt-get update && apt-get install -y fuse gcsfuse python3 python3-pip
-
 # Install google cloud sdk
 RUN apt-get update && apt-get install -y apt-transport-https ca-certificates gnupg
 
